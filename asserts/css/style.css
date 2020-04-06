@@ -1,0 +1,16 @@
+h2 {text-align: center;}
+
+.box1 {background-color: rgb(148, 83, 83);
+      margin: 3px;
+      height: 240px;}
+
+.box2 {background-color: rgb(214, 87, 87);
+      margin: 3px;
+      height: 240px;
+      border-radius: 5px;}
+
+.box3 {background-color: rgb(101, 148, 83);
+      margin: 3px;
+      height: 240px;}
+
+div#map {min-height: 360px;}
