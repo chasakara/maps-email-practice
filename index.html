@@ -10,20 +10,34 @@
 <title>Interactive</title>
 </head>
 <body>
-<div class="container-fluid">
-  <div class="row no-gutters">
-    <div class="box1 col">
-    </div>
-    <div class="box2 col">
-    </div>
-    <div class="box3 col">
-    </div>
-  </div>
+<div class="container contactus">
+                  <div class="row">
+                    <div class="col-12">
+                        <form class="center-form" id="center-form">
+                            <div class="form-group">
+                               <label for="fullname">Name</label>
+                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required="">
+                            </div>
+                            <div class="form-group">
+                                 <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required="" aria-describedby="emailHelp">
+                            </div>
+                              <label for="message">Message</label>
+                              <textarea name="message" id="message" rows="5" class="form-control" required="" placeholder="Your message"></textarea>
+                            <div class="form-row text-center">
+                                <div class="col button">
+                                    <button type="submit" class="btn btn-secondary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+       </div>
   <div id="map">
   </div>
-</div>
  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
     <script src="asserts/js/maps.js"></script>
+    <script src="asserts/js/sendemail.js"></script>
 </body>
 </html>
